@@ -1,0 +1,53 @@
+CRITICAL - 2022-07-17 07:18:13 --> Undefined variable: operator
+#0 C:\xampp\htdocs\exkul\app\Views\operator\operator.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/operat...', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(27): view('Operator/operat...', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->operator()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-17 08:13:51 --> Column 'username_operator' cannot be null
+CRITICAL - 2022-07-17 08:13:51 --> Column 'username_operator' cannot be null
+#0 C:\xampp\htdocs\exkul\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\xampp\htdocs\exkul\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\xampp\htdocs\exkul\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\xampp\htdocs\exkul\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\xampp\htdocs\exkul\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\exkul\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\exkul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\exkul\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_operator()
+#10 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#11 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-07-17 10:08:34 --> Undefined index: siswa
+#0 C:\xampp\htdocs\exkul\app\Views\operator\siswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/siswa', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(114): view('Operator/siswa', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->siswa()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-17 10:09:05 --> Undefined index: jerusan
+#0 C:\xampp\htdocs\exkul\app\Views\operator\edit_siswa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/edit_s...', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(137): view('Operator/edit_s...', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->edit_siswa('1')
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

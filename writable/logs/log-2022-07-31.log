@@ -1,0 +1,120 @@
+CRITICAL - 2022-07-31 06:50:52 --> Undefined index: bobot
+#0 C:\xampp\htdocs\exkul\app\Views\operator\kriteria.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/kriter...', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(165): view('Operator/kriter...', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->kriteria()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-31 08:17:40 --> Undefined variable: operator
+#0 C:\xampp\htdocs\exkul\app\Views\operator\ekskul.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/ekskul', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(269): view('Operator/ekskul', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->ekskul()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-31 08:20:22 --> Unknown column 'bobot' in 'field list'
+CRITICAL - 2022-07-31 08:20:22 --> Unknown column 'bobot' in 'field list'
+#0 C:\xampp\htdocs\exkul\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `kr...', 0)
+#1 C:\xampp\htdocs\exkul\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kr...')
+#2 C:\xampp\htdocs\exkul\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kr...')
+#3 C:\xampp\htdocs\exkul\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kr...', Array, false)
+#4 C:\xampp\htdocs\exkul\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\exkul\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\exkul\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\exkul\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(185): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_kriteria()
+#10 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#11 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-07-31 08:21:34 --> Trying to get property 'getName' of non-object
+#0 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 282, Array)
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#3 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-31 08:21:49 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-31 08:23:26 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-31 08:24:47 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-31 08:25:22 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-31 08:26:59 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->store_ekskul()
+#1 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#2 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-31 08:27:29 --> Undefined index: nama_ekskul
+#0 C:\xampp\htdocs\exkul\app\Views\operator\ekskul.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/ekskul', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(269): view('Operator/ekskul', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->ekskul()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-31 09:04:18 --> Undefined index: bobot
+#0 C:\xampp\htdocs\exkul\app\Views\operator\kriteria.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/kriter...', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(171): view('Operator/kriter...', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->kriteria()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-31 11:37:29 --> Undefined variable: dt_ekskul
+#0 C:\xampp\htdocs\exkul\app\Views\operator\dt_ekskul.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\exkul\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\exkul\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\exkul\system\Common.php(1089): CodeIgniter\View\View->render('Operator/dt_eks...', Array, true)
+#4 C:\xampp\htdocs\exkul\app\Controllers\Operator.php(341): view('Operator/dt_eks...', Array)
+#5 C:\xampp\htdocs\exkul\system\CodeIgniter.php(832): App\Controllers\Operator->dt_ekskul()
+#6 C:\xampp\htdocs\exkul\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#7 C:\xampp\htdocs\exkul\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\exkul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\exkul\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
